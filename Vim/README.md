@@ -41,7 +41,7 @@ i -- Insert mode
 R  -- Replace mode
 x -- Delete character at recent cursor
 ```
-- Exit vim
+- Exit vim:
 ```
 :q -- Exit vim
 :q! -- Exit without save
