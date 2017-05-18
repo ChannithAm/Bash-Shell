@@ -18,34 +18,34 @@ $ -- move to end of line
 ```
 - Quick move to head or end of file: `G` and `gg`:
 ```
-`gg` -- move to top of file
- `G` -- move to the end of file
- `50G` -- move to 50th line of file
- 'CTRL + g` -- print prensent line, total of line,...
+gg -- move to top of file
+G -- move to the end of file
+50G -- move to 50th line of file
+CTRL + g -- print prensent line, total of line,...
 ```
 - Highlight
 ```
-`v` -- Highlight cursor area by key `H/J/K/L`
-`V` -- Select 1 line
-`vap` -- Select 1 paragraph
-`ggVG` -- Select all
+v -- Highlight cursor area by key `H/J/K/L`
+V -- Select 1 line
+vap -- Select 1 paragraph
+ggVG -- Select all
 ```
 - Find text in file  by using `?`, `/` and `n`:
 ```
-`/text` -- find text below cursor
-`?text` -- find text above cursor
-`n` -- find with recent text
+/text -- find text below cursor
+?text -- find text above cursor
+n -- find with recent text
 ```
 - Edit text with `i, x, R`:
-`i` -- Insert mode
-`R`  -- Replace mode
-`x` -- Delete character at recent cursor
+i -- Insert mode
+R  -- Replace mode
+x -- Delete character at recent cursor
 ```
 - Exit vim
 ```
-`:q` -- Exit vim
-`:q!` -- Exit without save
-`:w` -- Save file
-`:w!` -- Force save file
-`:wq` -- Save and exit
+:q -- Exit vim
+:q! -- Exit without save
+:w -- Save file
+:w! -- Force save file
+:wq -- Save and exit
 ```
