@@ -1,10 +1,9 @@
 ## Vim basic command
 - Restart `VIM`
-<ul>
-  <li>vim</li>
-  <li>vim file_name</li>
-</ul>
-
+```
+vim
+vim file_name
+```
 - Move crusor
 <ul>
   <li>H -- move left</li>
