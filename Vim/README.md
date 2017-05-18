@@ -37,6 +37,7 @@ ggVG -- Select all
 n -- find with recent text
 ```
 - Edit text with `i, x, R`:
+```
 i -- Insert mode
 R  -- Replace mode
 x -- Delete character at recent cursor
@@ -48,4 +49,8 @@ x -- Delete character at recent cursor
 :w -- Save file<br/>
 :w! -- Force save file<br/>
 :wq -- Save and exit<br/>
+
 ```
+
+
+
