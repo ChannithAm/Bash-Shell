@@ -5,48 +5,47 @@ vim
 vim file_name
 ```
 - Move crusor
-<ul>
-  <li>H -- move left</li>
-  <li>J -- move down</li>
-  <li>K -- move up</li>
-  <li>L -- mov right</li>
-</ul>
+```
+H -- move left
+J -- move down
+K -- move up
+L -- mov right
+```
 - Quick move: 
-<ul>
-  <li>$ -- move to end of line</li>
-  <li>0 -- move to head line</li>
-</ul>
+```
+$ -- move to end of line
+0 -- move to head line
+```
 - Quick move to head or end of file: `G` and `gg`:
-<ul>
-  <li>`gg` -- move to top of file</li>
-  <li>`G` -- move to the end of file</li>
-  <li>`50G` -- move to 50th line of file</li>
-  <li>'CTRL + g` -- print prensent line, total of line,...</li>
-</ul>
+```
+`gg` -- move to top of file
+ `G` -- move to the end of file
+ `50G` -- move to 50th line of file
+ 'CTRL + g` -- print prensent line, total of line,...
+```
 - Highlight
-<ul>
-  <li>`v` -- Highlight cursor area by key `H/J/K/L`</li>
-  <li>`V` -- Select 1 line</li>
-  <li>`vap` -- Select 1 paragraph</li>
-  <li>`ggVG` -- Select all</li>
-</ul>
+```
+`v` -- Highlight cursor area by key `H/J/K/L`
+`V` -- Select 1 line
+`vap` -- Select 1 paragraph
+`ggVG` -- Select all
+```
 - Find text in file  by using `?`, `/` and `n`:
-<ul>
-  <li>`/text` -- find text below cursor</li>
-  <li>`?text` -- find text above cursor</li>
-  <li>`n` -- find with recent text</li>
-</ul>
+```
+`/text` -- find text below cursor
+`?text` -- find text above cursor
+`n` -- find with recent text
+```
 - Edit text with `i, x, R`:
-<ul>
-  <li>`i` -- Insert mode</li>
-  <li>`R`  -- Replace mode</li>
-  <li>`x` -- Delete character at recent cursor</li>
-</ul>
+`i` -- Insert mode
+`R`  -- Replace mode
+`x` -- Delete character at recent cursor
+```
 - Exit vim
-<ul>
-  <li>`:q` -- Exit vim</li>
-  <li>`:q!` -- Exit without save</li>
-  <li>`:w` -- Save file</li>
-  <li>`:w!` -- Force save file</li>
-  <lli>`:wq` -- Save and exit</li>
-</ul>
+```
+`:q` -- Exit vim
+`:q!` -- Exit without save
+`:w` -- Save file
+`:w!` -- Force save file
+`:wq` -- Save and exit
+```
