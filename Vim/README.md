@@ -43,9 +43,9 @@ x -- Delete character at recent cursor
 ```
 - Exit vim:
 ```
-:q -- Exit vim
-:q! -- Exit without save
-:w -- Save file
-:w! -- Force save file
-:wq -- Save and exit
+:q -- Exit vim<br/>
+:q! -- Exit without save<br/>
+:w -- Save file<br/>
+:w! -- Force save file<br/>
+:wq -- Save and exit<br/>
 ```
