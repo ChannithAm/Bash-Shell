@@ -1,3 +1,8 @@
+## Install VIM on Debian
+```
+sudo apt-get update
+sudo apt-get install vim
+```
 ## Vim basic command
 - Restart `VIM`
 ```
