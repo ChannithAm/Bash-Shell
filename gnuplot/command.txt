@@ -1,0 +1,29 @@
+cat result.txt | grep sec | head -15 | tr - " " | awk '{print $4, $8}'
+
+- head -15: from begin to line 15th
+- tr - " ": replace - with space
+
+gnuplot
+======
+
+$ gnuplot
+gnuplot> plot "new_result.txt" title "CDP Flow" with linespoints
+gnuplot> set grid
+gnuplot> replot
+gnuplot> set ylabel "TCP Throughput (Mbps)"
+gnuplot> set xlabel "Time (sec)"
+gnuplot> replot
+gnuplot> set yrange[20:30]
+gnuplot> replot
+gnuplot> set y2tics border
+gnuplot> replot
+gnuplot> exit
+
+2. Producing png   (image file, similar to .jpg)
+gnuplot> set term png             (will produce .png output)
+gnuplot> set output "printme.png" (output to any filename.png you want)
+gnuplot> replot
+gnuplot> set term x11
+
+You can view it with some viewer, or on a browser, or print it...
+or import it in PowerPoint  or  whatever you want to do with it.
